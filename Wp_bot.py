@@ -1,9 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
-chats=['bot1','Paapa','Ma','bot2']
+chats=['bot1','Paapa','Ma','bot2'] #give the contacts
 
-driver = webdriver.Chrome(executable_path="/usr/local/lib/node_modules/chromedriver/bin/chromedriver",)
+driver = webdriver.Chrome(executable_path="/usr/local/lib/node_modules/chromedriver/bin/chromedriver",) #webdriver path
 driver.get("https://web.whatsapp.com/")
 driver.maximize_window()
 print("Scan QR code ")
